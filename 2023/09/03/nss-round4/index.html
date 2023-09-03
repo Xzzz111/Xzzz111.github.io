@@ -13,23 +13,25 @@
     
     <!--- Seo Part-->
     
-    <link rel="canonical" href="http://example.com/2023/09/02/nss-round3/"/>
+    <link rel="canonical" href="http://example.com/2023/09/03/nss-round4/"/>
     <meta name="robots" content="index,follow">
     <meta name="googlebot" content="index,follow">
     <meta name="revisit-after" content="1 days">
     
-        <meta name="description" content="nssctf round3_web题wp">
+        <meta name="description" content="nssctf round4——web题wp">
 <meta property="og:type" content="article">
-<meta property="og:title" content="nss round3">
-<meta property="og:url" content="http://example.com/2023/09/02/nss-round3/index.html">
+<meta property="og:title" content="nss round4">
+<meta property="og:url" content="http://example.com/2023/09/03/nss-round4/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="nssctf round3_web题wp">
+<meta property="og:description" content="nssctf round4——web题wp">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2023-09-02T12:25:57.000Z">
-<meta property="article:modified_time" content="2023-09-02T13:00:24.750Z">
+<meta property="og:image" content="http://example.com/image/nssround/4-1zweb-1.PNG">
+<meta property="article:published_time" content="2023-09-03T06:24:41.000Z">
+<meta property="article:modified_time" content="2023-09-03T06:46:54.701Z">
 <meta property="article:author" content="John Doe">
 <meta property="article:tag" content="ctf">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/image/nssround/4-1zweb-1.PNG">
     
     
     <!--- Icon Part-->
@@ -41,7 +43,7 @@
     
     <title>
         
-            nss round3 -
+            nss round4 -
         
         Sh7err&#39;s Blog
     </title>
@@ -209,7 +211,7 @@
 
         <div class="article-title">
             
-                <h1 class="article-title-regular">nss round3</h1>
+                <h1 class="article-title-regular">nss round4</h1>
             
             </div>
             
@@ -231,15 +233,15 @@
                         <div class="article-meta-info">
     <span class="article-date article-meta-item">
         <i class="fa-regular fa-pen-fancy"></i>&nbsp;
-        <span class="desktop">2023-09-02 20:25:57</span>
-        <span class="mobile">2023-09-02 20:25:57</span>
+        <span class="desktop">2023-09-03 14:24:41</span>
+        <span class="mobile">2023-09-03 14:24:41</span>
         <span class="hover-info">Created</span>
     </span>
     
         <span class="article-date article-meta-item">
             <i class="fa-regular fa-wrench"></i>&nbsp;
-            <span class="desktop">2023-09-02 21:24</span>
-            <span class="mobile">2023-09-02 21:24</span>
+            <span class="desktop">2023-09-03 14:46:54</span>
+            <span class="mobile">2023-09-03 14:46:54</span>
             <span class="hover-info">Updated</span>
         </span>
     
@@ -277,28 +279,35 @@
 
 
         <div class="article-content markdown-body">
-            <p><strong>nssctf round3_web题wp</strong></p>
+            <p><strong>nssctf round4——web题wp</strong></p>
 <span id="more"></span>
-<h2 id="This1sMysql"><a href="#This1sMysql" class="headerlink" title="This1sMysql"></a>This1sMysql</h2><p>太难了不会<br>一段源码</p>
-<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="title function_ invoke__">show_source</span>(<span class="keyword">__FILE__</span>);</span><br><span class="line"><span class="keyword">include</span>(<span class="string">&quot;class.php&quot;</span>);</span><br><span class="line"><span class="variable">$conn</span> = <span class="keyword">new</span> <span class="title function_ invoke__">mysqli</span>();</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span>(<span class="keyword">isset</span>(<span class="variable">$_POST</span>[<span class="string">&#x27;config&#x27;</span>]) &amp;&amp; <span class="title function_ invoke__">is_array</span>(<span class="variable">$_POST</span>[<span class="string">&#x27;config&#x27;</span>]))&#123;</span><br><span class="line">    <span class="keyword">foreach</span>(<span class="variable">$_POST</span>[<span class="string">&#x27;config&#x27;</span>] <span class="keyword">as</span> <span class="variable">$key</span> =&gt; <span class="variable">$val</span>)&#123;</span><br><span class="line">        <span class="variable">$value</span> = <span class="title function_ invoke__">is_numeric</span>(<span class="variable">$var</span>)?(<span class="keyword">int</span>)<span class="variable">$val</span>:<span class="variable">$val</span>;</span><br><span class="line">        <span class="variable">$conn</span>-&gt;<span class="title function_ invoke__">set_opt</span>(<span class="variable">$key</span>, <span class="variable">$value</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span>(<span class="keyword">isset</span>(<span class="variable">$_POST</span>[<span class="string">&#x27;mysql&#x27;</span>]) &amp;&amp; <span class="title function_ invoke__">is_array</span>(<span class="variable">$_POST</span>[<span class="string">&#x27;mysql&#x27;</span>]))&#123;</span><br><span class="line">    <span class="variable">$my</span> = <span class="variable">$_POST</span>[<span class="string">&#x27;mysql&#x27;</span>];</span><br><span class="line">    <span class="keyword">if</span>(<span class="variable">$conn</span>-&gt;<span class="title function_ invoke__">real_connect</span>(<span class="variable">$my</span>[<span class="string">&#x27;host&#x27;</span>], <span class="variable">$my</span>[<span class="string">&#x27;user&#x27;</span>], <span class="variable">$my</span>[<span class="string">&#x27;pass&#x27;</span>], <span class="variable">$my</span>[<span class="string">&#x27;dbname&#x27;</span>], <span class="variable">$my</span>[<span class="string">&#x27;port&#x27;</span>]))&#123;</span><br><span class="line">        <span class="keyword">echo</span> <span class="string">&quot;connect success&quot;</span>;</span><br><span class="line">        <span class="variable">$conn</span>-&gt;<span class="title function_ invoke__">query</span>(<span class="string">&quot;show databases;&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span>&#123;</span><br><span class="line">        <span class="keyword">echo</span> <span class="string">&quot;connect fail&quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">else</span>&#123;</span><br><span class="line">    <span class="keyword">include</span>(<span class="string">&quot;function.php&quot;</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="variable">$conn</span>-&gt;<span class="title function_ invoke__">close</span>();</span><br><span class="line"><span class="meta">?&gt;</span> connect success</span><br></pre></td></tr></table></figure></div>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../image/nssround/4-1zweb-1.PNG"
+                     
+                ><br>一个提交文件和一个查询文件。<br>先查查upload.php和index.php是什么。<br>upload.php:</p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="keyword">if</span> (<span class="variable">$_FILES</span>[<span class="string">&quot;file&quot;</span>][<span class="string">&quot;error&quot;</span>] &gt; <span class="number">0</span>)&#123;</span><br><span class="line">    <span class="keyword">echo</span> <span class="string">&quot;上传异常&quot;</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">else</span>&#123;</span><br><span class="line">    <span class="variable">$allowedExts</span> = <span class="keyword">array</span>(<span class="string">&quot;gif&quot;</span>, <span class="string">&quot;jpeg&quot;</span>, <span class="string">&quot;jpg&quot;</span>, <span class="string">&quot;png&quot;</span>);</span><br><span class="line">    <span class="variable">$temp</span> = <span class="title function_ invoke__">explode</span>(<span class="string">&quot;.&quot;</span>, <span class="variable">$_FILES</span>[<span class="string">&quot;file&quot;</span>][<span class="string">&quot;name&quot;</span>]);</span><br><span class="line">    <span class="variable">$extension</span> = <span class="title function_ invoke__">end</span>(<span class="variable">$temp</span>);</span><br><span class="line">    <span class="keyword">if</span> ((<span class="variable">$_FILES</span>[<span class="string">&quot;file&quot;</span>][<span class="string">&quot;size&quot;</span>] &amp;&amp; <span class="title function_ invoke__">in_array</span>(<span class="variable">$extension</span>, <span class="variable">$allowedExts</span>)))&#123;</span><br><span class="line">        <span class="variable">$content</span>=<span class="title function_ invoke__">file_get_contents</span>(<span class="variable">$_FILES</span>[<span class="string">&quot;file&quot;</span>][<span class="string">&quot;tmp_name&quot;</span>]);</span><br><span class="line">        <span class="variable">$pos</span> = <span class="title function_ invoke__">strpos</span>(<span class="variable">$content</span>, <span class="string">&quot;__HALT_COMPILER();&quot;</span>);</span><br><span class="line">        <span class="keyword">if</span>(<span class="title function_ invoke__">gettype</span>(<span class="variable">$pos</span>)===<span class="string">&quot;integer&quot;</span>)&#123;</span><br><span class="line">            <span class="keyword">echo</span> <span class="string">&quot;ltj一眼就发现了phar&quot;</span>;</span><br><span class="line">        &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">            <span class="keyword">if</span> (<span class="title function_ invoke__">file_exists</span>(<span class="string">&quot;./upload/&quot;</span> . <span class="variable">$_FILES</span>[<span class="string">&quot;file&quot;</span>][<span class="string">&quot;name&quot;</span>]))&#123;</span><br><span class="line">                <span class="keyword">echo</span> <span class="variable">$_FILES</span>[<span class="string">&quot;file&quot;</span>][<span class="string">&quot;name&quot;</span>] . <span class="string">&quot; 文件已经存在&quot;</span>;</span><br><span class="line">            &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">                <span class="variable">$myfile</span> = <span class="title function_ invoke__">fopen</span>(<span class="string">&quot;./upload/&quot;</span>.<span class="variable">$_FILES</span>[<span class="string">&quot;file&quot;</span>][<span class="string">&quot;name&quot;</span>], <span class="string">&quot;w&quot;</span>);</span><br><span class="line">                <span class="title function_ invoke__">fwrite</span>(<span class="variable">$myfile</span>, <span class="variable">$content</span>);</span><br><span class="line">                <span class="title function_ invoke__">fclose</span>(<span class="variable">$myfile</span>);</span><br><span class="line">                <span class="keyword">echo</span> <span class="string">&quot;上传成功 ./upload/&quot;</span>.<span class="variable">$_FILES</span>[<span class="string">&quot;file&quot;</span>][<span class="string">&quot;name&quot;</span>];</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">        <span class="keyword">echo</span> <span class="string">&quot;dky不喜欢这个文件 .&quot;</span>.<span class="variable">$extension</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="meta">?&gt;</span></span><br></pre></td></tr></table></figure></div>
+<p>index.php:</p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">LoveNss</span></span>&#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="variable">$ljt</span>;</span><br><span class="line">    <span class="keyword">public</span> <span class="variable">$dky</span>;</span><br><span class="line">    <span class="keyword">public</span> <span class="variable">$cmd</span>;</span><br><span class="line">    <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">__construct</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">        <span class="variable language_">$this</span>-&gt;ljt=<span class="string">&quot;ljt&quot;</span>;</span><br><span class="line">        <span class="variable language_">$this</span>-&gt;dky=<span class="string">&quot;dky&quot;</span>;</span><br><span class="line">        <span class="title function_ invoke__">phpinfo</span>();</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">__destruct</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">        <span class="keyword">if</span>(<span class="variable language_">$this</span>-&gt;ljt===<span class="string">&quot;Misc&quot;</span>&amp;&amp;<span class="variable language_">$this</span>-&gt;dky===<span class="string">&quot;Re&quot;</span>)</span><br><span class="line">            <span class="keyword">eval</span>(<span class="variable language_">$this</span>-&gt;cmd);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">__wakeup</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">        <span class="variable language_">$this</span>-&gt;ljt=<span class="string">&quot;Re&quot;</span>;</span><br><span class="line">        <span class="variable language_">$this</span>-&gt;dky=<span class="string">&quot;Misc&quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="variable">$file</span>=<span class="variable">$_POST</span>[<span class="string">&#x27;file&#x27;</span>];</span><br><span class="line"><span class="keyword">if</span>(<span class="keyword">isset</span>(<span class="variable">$_POST</span>[<span class="string">&#x27;file&#x27;</span>]))&#123;</span><br><span class="line">    <span class="keyword">echo</span> <span class="title function_ invoke__">file_get_contents</span>(<span class="variable">$file</span>);</span><br><span class="line">&#125;</span><br><span class="line"><span class="meta">?&gt;</span></span><br></pre></td></tr></table></figure></div>
         </div>
 
         
             <div class="post-copyright-info">
                 <div class="article-copyright-info-container">
     <ul>
-        <li><strong>Title:</strong> nss round3</li>
+        <li><strong>Title:</strong> nss round4</li>
         <li><strong>Author:</strong> Sh7err</li>
         <li><strong>Created at
-                :</strong> 2023-09-02 20:25:57</li>
+                :</strong> 2023-09-03 14:24:41</li>
         
             <li>
                 <strong>Updated at
-                    :</strong> 2023-09-02 21:00:24
+                    :</strong> 2023-09-03 14:46:54
             </li>
         
         <li>
-            <strong>Link:</strong> https://xzzz111.github.io/2023/09/02/nss-round3/
+            <strong>Link:</strong> https://xzzz111.github.io/2023/09/03/nss-round4/
         </li>
         <li>
             <strong>
@@ -330,29 +339,14 @@
         
             <div class="article-nav">
                 
-                    <div class="article-prev">
-                        <a class="prev"
-                        rel="prev"
-                        href="/2023/09/03/nss-round4/"
-                        >
-                            <span class="left arrow-icon flex justify-center items-center">
-                                <i class="fa-solid fa-chevron-left"></i>
-                            </span>
-                            <span class="title flex justify-center items-center">
-                                <span class="post-nav-title-item">nss round4</span>
-                                <span class="post-nav-item">Prev posts</span>
-                            </span>
-                        </a>
-                    </div>
-                
                 
                     <div class="article-next">
                         <a class="next"
                         rel="next"
-                        href="/2023/09/02/nss-round15/"
+                        href="/2023/09/02/nss-round3/"
                         >
                             <span class="title flex justify-center items-center">
-                                <span class="post-nav-title-item">nss round15(2nd)</span>
+                                <span class="post-nav-title-item">nss round3</span>
                                 <span class="post-nav-item">Next posts</span>
                             </span>
                             <span class="right arrow-icon flex justify-center items-center">
@@ -417,8 +411,8 @@
             <div class="post-toc-wrap">
     <div class="post-toc">
         <div class="toc-title">On this page</div>
-        <div class="page-title">nss round3</div>
-        <ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#This1sMysql"><span class="nav-text">This1sMysql</span></a></li></ol>
+        <div class="page-title">nss round4</div>
+        
 
     </div>
 </div>
